@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "./dto";
+
+message JWTToken {
+    string access_token = 1;
+    string refresh_token = 2;
+}
+
+message Payload {
+  string id = 1;
+}
+
+service AuthService {
+  rpc Login (Payload) returns (JWTToken) {}
+  rpc Refresh (JWTToken) returns (JWTToken) {}
+  rpc CheckToken (JWTToken) returns (Payload) {}
+}

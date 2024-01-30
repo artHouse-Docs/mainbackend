@@ -1,0 +1,9 @@
+server:
+  host: "127.0.0.1"
+  port: "8081"
+  salt: "CoOlPiterSaltFoRCooooooLLlLLllProJect"
+database:
+  host: "localhost"
+  port: "27018"
+  user: "test"
+  password: "admin"
