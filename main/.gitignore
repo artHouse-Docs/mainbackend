@@ -3,3 +3,4 @@ config.yaml
 go.sum
 data
 .idea
+test.config.yaml

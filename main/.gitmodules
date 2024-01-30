@@ -1,3 +1,3 @@
-[submodule "api"]
+submodule "api"]
 	path = api
 	url = git@github.com:artHouse-Docs/api.git
